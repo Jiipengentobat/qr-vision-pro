@@ -103,7 +103,7 @@ html, body, [class*="css"] {
 .badge-other  { background: rgba(100,116,139,0.15);color: var(--muted); }
 
 /* Hide default Streamlit header branding */
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer, { visibility: hidden; }
 
 /* Input fields */
 .stTextInput > div > div > input,
